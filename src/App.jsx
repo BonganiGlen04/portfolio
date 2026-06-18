@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
       <section id="Home"><Homepage/></section>
       <section id="Aboutpage"><Aboutpage/></section>
-      <section id="Timelinepage"><Timelinepage/><Bitcube/></section>
+      <section id="Timelinepage"><Timelinepage/></section>
       <section id="Project"><Projectpage/></section>
       <section id="Contact"><Contactpage/></section>
       <Footer/>

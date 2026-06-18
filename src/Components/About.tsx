@@ -34,11 +34,9 @@ const About = () => {
         </p>
         </Fade>
       </div>
+      
       <div className="md:flex md:mt-20 ">
-        
-      </div>
-      <div className="md:flex md:mt-20 ">
-        <div className=" md:mt-20  ml-10 md:ml-20 md:flex-grow">
+        <div className=" md:mt-20  ml-10 md:ml-20 md:grow">
           <Fade direction="left">
             <div>
               <h1 className="font-bold text-2xl">Get To know Me!</h1>
@@ -56,7 +54,7 @@ const About = () => {
             </Link>
           </Fade>
         </div> 
-
+        
         <div className="mt-20  ml-10 md:mr-10 :flex-grow">
           <h1 className="font-bold text-2xl">My Skills</h1>
           <div className="flex flex-wrap ">
@@ -84,7 +82,7 @@ const About = () => {
                 <h1 className="font-semibold text-zinc-700">ASP.NET Core</h1>
               </div>
             
-              <div className="mt-10 bg-gray-300 text-center py-2 max-w-26 pr-2 pl-2 rounded-md ml-3  ">
+              <div className="mt-10 bg-gray-300 text-center py-2 max-w-28 pr-2 pl-2 rounded-md ml-3  ">
                 <h1 className="font-semibold text-zinc-700">TailwindCSS</h1>
               </div>
           </Fade>
