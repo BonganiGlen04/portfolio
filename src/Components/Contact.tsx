@@ -89,7 +89,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col gap-2 ml-4 w-[80%] md:w-full lg:w-80">
             <div className="flex items-center gap-2">
-              <span className="inline-flex items-center rounded-l-md border border-gray-300 bg-gray-100 px-3 text-gray-700">+27</span>
+              <span className="inline-flex items-center py-2 px-4 rounded-l-md border border-gray-300 bg-gray-100 px-3 text-gray-700">+27</span>
               <input
                 className="w-full rounded-r-md border border-l-0 border-gray-300 py-2 px-4"
                 type="tel"

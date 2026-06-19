@@ -32,14 +32,23 @@ const About = () => {
         <div className="md:mt-20 ml-10 md:ml-20 md:grow">
           <Fade direction="left">
             <div>
-              <h1 className="font-bold text-2xl">Get To know Me!</h1>
-              <p className="mt-10 mr-5">
-                I'm an IT graduate specializing in software engineering and full-stack development. I build secure web applications, workflow automation systems, and AI-powered solutions using modern technologies.
+              <h1 className="font-bold text-2xl">Get To Know Me</h1>
+
+              <p className="mt-10 mr-10">
+                I'm a Software Developer with experience building full-stack web applications,
+                workflow automation systems, and AI-powered solutions. My work focuses on
+                solving real-world operational problems through scalable, user-focused software.
               </p>
-              <p className="mt-10 mr-5">
-                I'm open to <span className="font-semibold text-gray-700">job opportunities</span> where I can contribute, learn, and grow.
-                <br />If you have a strong opportunity that matches my skills and experience,
-                <br />don’t hesitate to <span className="font-semibold text-gray-700">contact</span> me.
+
+              <p className="mt-10 mr-10">
+                I enjoy working across the entire development lifecycle, from designing and
+                developing applications to testing, deployment, and continuous improvement.
+                My primary stack includes Python, Flask, React, C#, ASP.NET Core, SQL, and modern web technologies.
+              </p>
+
+              <p className="mt-10 mr-10">
+                Currently, I'm focused on expanding my expertise in software architecture,
+                scalable systems, and modern web development while contributing to impactful projects.
               </p>
             </div>
           </Fade>
