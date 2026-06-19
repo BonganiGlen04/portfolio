@@ -29,7 +29,7 @@ const Homehero = () => {
         <div className="md:flex flex-col items-center justify-center">
           <Fade direction="right">
             <h1 className="font-semibold text-[#4267B2] text-2xl md:text-3xl md:justify-center md:text-center font-abc">
-              Hi! I'M Bongani Glen Maduma — Software Engineer
+              Hi! I'm Bongani Glen Maduma — Software Engineer
             </h1>
           </Fade>
           <Fade direction="left">
@@ -38,16 +38,16 @@ const Homehero = () => {
             </p>
           </Fade>
 
-          <div className="flex gap-2 md:justify-between mt-8">
+          <div className="flex gap-2 mt-8 w-full md:justify-center md:w-1/2">
             <Fade direction="left">
               <a
                 href="https://www.linkedin.com/in/bongani-maduma"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="bg-[#4267B2] gap-1  text-white rounded-lg px-6 py-3 md:px-3 font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:border border-black flex hover:text-black">
-                  <FaLinkedin className="pb" size={21} />
-                  Linkedin
+                <button className="bg-[#4267B2] flex items-center justify-center gap-1 text-white rounded-lg px-2 py-2 text-lg sm:text-sm md:px-3 md:py-3 font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:border border-black hover:text-black">
+                  <FaLinkedin size={16} />
+                  <span className="whitespace-nowrap">LinkedIn</span>
                 </button>
               </a>
             </Fade>
@@ -57,20 +57,20 @@ const Homehero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="bg-[#4267B2] gap-1  text-white rounded-lg px-6 py-3 md:px-3 font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:border border-black flex hover:text-black">
-                   <FaGithubSquare className="pb" size={21} />
-                  GitHub
+                <button className="bg-[#4267B2] flex items-center justify-center gap-1 text-white rounded-lg px-2 py-2 text-lg sm:text-sm md:px-3 md:py-3 font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:border border-black hover:text-black">
+                  <FaGithubSquare size={16} />
+                  <span className="whitespace-nowrap">GitHub</span>
                 </button>
               </a>
             </Fade>
-            <Fade direction="right">
+            <Fade direction="left">
               <a
                 href="https://drive.google.com/file/d/1qRr_UvPm00WipTRQilINy3UNWRxYT0FE/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="border rounded-lg font-semibold border-black px-2 py-3  transition duration-300 ease-in-out hover:bg-[#4267B2] hover:border-none hover:text-white ">
-                  Resume
+                <button className="border border-black flex items-center justify-center rounded-lg px-2 py-2 text-lg sm:text-sm md:px-3 md:py-3 font-semibold transition duration-300 ease-in-out hover:bg-[#4267B2] hover:border-none hover:text-white">
+                  <span className="whitespace-nowrap">Resume</span>
                 </button>
               </a>
             </Fade>
