@@ -26,7 +26,7 @@ const Contact = () => {
         </div>
       </Fade>
       <div className="mt-10">
-        <form action="https://getform.io/f/zaxmdnpb"   method="POST" className="space-y-4 pr-5 mb-10 md:flex flex-col justify-center mt-5 items-center mx-auto">
+        <form action="https://forminit.com/f/7s97rc53yef"   method="POST" className="space-y-4 pr-5 mb-10 md:flex flex-col justify-center ml-15 mt-5 items-center md:mx-auto">
           <div>
               <input className="border ml-4  border-gray-300 rounded-md py-2 px-4 w-[80%] md:w-full lg:w-80" type="text" placeholder="Name" name="name" />
           </div>
@@ -45,9 +45,9 @@ const Contact = () => {
         </form>
       </div>
 
-      <div className="flex md:justify-center">
+      <div className="flex justify-center">
         <Fade direction="left">
-          <div className="w-36 ml-7 md:ml-15 md:w-36">
+          <div className="w-36 md:w-36">
             <Lottie
               options={{
                 loop: true,

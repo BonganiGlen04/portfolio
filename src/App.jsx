@@ -5,7 +5,6 @@ import Contactpage from "./Pages/Contactpage"
 import Timelinepage from "./Pages/Timelinepage"
 import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
-import Bitcube from "./Components/Bitcube"
 
 
 function App() {
