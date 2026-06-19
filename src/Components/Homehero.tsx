@@ -43,6 +43,7 @@ const Homehero = () => {
               <a
                 href="https://www.linkedin.com/in/bongani-maduma"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <button className="bg-[#4267B2] gap-1  text-white rounded-lg px-6 py-3 md:px-3 font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:border border-black flex hover:text-black">
                   <FaLinkedin className="pb" size={21} />
@@ -54,6 +55,7 @@ const Homehero = () => {
               <a
                 href="https://github.com/bonganiglen04"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <button className="bg-[#4267B2] gap-1  text-white rounded-lg px-6 py-3 md:px-3 font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:border border-black flex hover:text-black">
                    <FaGithubSquare className="pb" size={21} />
@@ -65,6 +67,7 @@ const Homehero = () => {
               <a
                 href="https://drive.google.com/file/d/1qRr_UvPm00WipTRQilINy3UNWRxYT0FE/view?usp=drive_link"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <button className="border rounded-lg font-semibold border-black px-2 py-3  transition duration-300 ease-in-out hover:bg-[#4267B2] hover:border-none hover:text-white ">
                   Resume
