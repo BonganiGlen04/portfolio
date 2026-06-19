@@ -13,6 +13,7 @@
     "@emotion/react": "^11.14.0",
     "@lottiefiles/lottie-player": "^2.0.12",
     "@tailwindcss/vite": "^4.3.1",
+    "firebase": "^12.15.0",
     "forminit": "^0.2.4",
     "localforage": "^1.10.0",
     "lottie-react": "^2.4.1",

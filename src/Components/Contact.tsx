@@ -7,7 +7,7 @@ import { useState, FormEvent } from 'react';
 import { Forminit } from 'forminit';
 
 const forminit = new Forminit();
-const FORM_ID = '7s97rc53yef';
+const FORM_ID = import.meta.env.VITE_FORMID ?? "";
 
 const Lottie = (LottieImport as any).default ?? LottieImport;
 
@@ -34,6 +34,12 @@ const Contact = () => {
     e.preventDefault();
     setStatus('loading');
     setError(null);
+
+    if (!FORM_ID) {
+      setStatus('error');
+      setError('Contact form is not configured. Please set VITE_FORMID in .env.');
+      return;
+    }
 
     const form = e.currentTarget;
     const formData = new FormData(form);
